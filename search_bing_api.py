@@ -23,7 +23,8 @@ if not API_KEY:
 MAX_RESULTS = 250
 GROUP_SIZE = 50
 
-URL = "https://api.cognitive.microsoft.com/bing/v7.0/images/search"
+URL = "https://api.bing.microsoft.com/v7.0/images/search"
+#URL = "https://api.cognitive.microsoft.com/bing/v7.0/images/search"
 
 EXCEPTIONS = {IOError, FileNotFoundError, exceptions.RequestException, exceptions.HTTPError, exceptions.ConnectionError,
               exceptions.Timeout}
